@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewTextAbove"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="@string/textAtTheTop"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonOpenTestPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundTint="#DA0D0D"
+            android:onClick="onClick"
+            android:text="@string/buttonTest" />
+
+        <Button
+            android:id="@+id/buttonRules"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/buttonRules" />
+
+        <Button
+            android:id="@+id/buttonLatestReults"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/buttonPreviousTests" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LearnEmphasis</string>
+    <string name="textAtTheTop">Изучение постановки ударений в словах</string>
+    <string name="buttonTest">Пройти тест</string>
+    <string name="buttonRules">Посмотреть правила</string>
+    <string name="buttonPreviousTests">Посмотреть результаты последних тестов</string>
+    <string name="task">Выберете верное ударение для следующих слов:</string>
+    <string name="buttonFinishTask">Завершить тестирование</string>
+    <string name="result">Ваш результат:</string>
+    <string name="result2">правильно -</string>
+    <string name="result3">, неправильно -</string>
+</resources>
